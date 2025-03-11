@@ -1,0 +1,7 @@
+name: ZanudaInfinityRailsPlugin
+version: 1.0.0
+main: me.petrolingus.zanudainfinityrails.ZanudaInfinityRailsPlugin
+description: An example plugin
+author: petrolingus
+website: https://papermc.io
+api-version: '1.21.4'
