@@ -1,5 +1,5 @@
 name: ZanudaInfinityRailsPlugin
-version: 1.0.0
+version: v1.0.0
 main: me.petrolingus.zanudainfinityrails.ZanudaInfinityRailsPlugin
 description: An example plugin
 author: petrolingus
