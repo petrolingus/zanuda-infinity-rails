@@ -1,7 +1,6 @@
 package me.petrolingus.zanudainfinityrails;
 
 import com.google.gson.Gson;
-import net.kyori.adventure.text.Component;
 import net.kyori.adventure.util.TriState;
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
@@ -18,16 +17,14 @@ import org.bukkit.event.vehicle.VehicleCreateEvent;
 import org.bukkit.event.vehicle.VehicleExitEvent;
 import org.bukkit.event.vehicle.VehicleMoveEvent;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkit.plugin.PluginLogger;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 public class ZanudaInfinityRailsPlugin extends JavaPlugin implements Listener {
 
-    Logger logger = PluginLogger.getLogger("ZanudaInfinityRailsPlugin");
+//    Logger logger = PluginLogger.getLogger("ZanudaInfinityRailsPlugin");
 
     private static final NamespacedKey LAST_VELOCITY_KEY = new NamespacedKey("namespace", "last_velocity");
     public static final Gson GSON = new Gson();
