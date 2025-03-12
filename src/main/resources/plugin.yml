@@ -5,3 +5,10 @@ description: Where did my cart go
 author: petrolingus
 website: https://papermc.io
 api-version: '1.21.4'
+commands:
+  minecart:
+    description: "Change the default behaviour of the Minecart"
+    usage: "/minecart"
+    aliases: [cart]
+    permission: zanudainfinityrails.command.minecart
+    permission-message: "You do not have permission to change the behaviour of the Minecart"
