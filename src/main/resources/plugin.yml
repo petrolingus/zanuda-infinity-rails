@@ -1,7 +1,7 @@
-name: ZanudaInfinityRailsPlugin
-version: 1.0.0
-main: me.petrolingus.zanudainfinityrails.ZanudaInfinityRailsPlugin
-description: An example plugin
+name: ZanudaInfinityRails
+version: 1.1.0
+main: me.petrolingus.zanudainfinityrails.ZanudaInfinityRails
+description: Where did my cart go
 author: petrolingus
 website: https://papermc.io
 api-version: '1.21.4'

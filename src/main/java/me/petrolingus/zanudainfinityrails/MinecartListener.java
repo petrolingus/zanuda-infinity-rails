@@ -2,7 +2,6 @@ package me.petrolingus.zanudainfinityrails;
 
 import com.google.gson.Gson;
 import net.kyori.adventure.util.TriState;
-import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.block.data.BlockData;
@@ -17,22 +16,14 @@ import org.bukkit.event.vehicle.VehicleCreateEvent;
 import org.bukkit.event.vehicle.VehicleExitEvent;
 import org.bukkit.event.vehicle.VehicleMoveEvent;
 import org.bukkit.persistence.PersistentDataType;
-import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
 
 import java.util.List;
 
-public class ZanudaInfinityRailsPlugin extends JavaPlugin implements Listener {
+public class MinecartListener implements Listener {
 
-//    Logger logger = PluginLogger.getLogger("ZanudaInfinityRailsPlugin");
-
-    private static final NamespacedKey LAST_VELOCITY_KEY = new NamespacedKey("namespace", "last_velocity");
+    private static final NamespacedKey LAST_VELOCITY_KEY = new NamespacedKey(ZanudaInfinityRails.getInstance(), "last_velocity");
     public static final Gson GSON = new Gson();
-
-    @Override
-    public void onEnable() {
-        Bukkit.getPluginManager().registerEvents(this, this);
-    }
 
     @SuppressWarnings("unused")
     @EventHandler

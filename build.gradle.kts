@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "me.petrolingus"
-version = "v1.0.0"
+version = "1.1.0"
 
 repositories {
     maven {
@@ -21,7 +21,7 @@ java {
 }
 
 // Saving the build to the plugins folder
-//tasks.jar {
-//    archiveBaseName.set("zanuda-infinity-rails")
-//    destinationDirectory.set(file("C:\\Users\\petrolingus\\Downloads\\paper-1.21.4-207\\plugins"))
-//}
+tasks.jar {
+    archiveBaseName.set("zanuda-infinity-rails")
+    destinationDirectory.set(file("C:\\Users\\petrolingus\\Downloads\\paper-1.21.4-207\\plugins"))
+}
