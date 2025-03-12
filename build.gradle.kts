@@ -20,7 +20,8 @@ java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
 
+// Saving the build to the plugins folder
 tasks.jar {
-    archiveBaseName.set("zanuda-infinity-rails") // Имя файла
-    destinationDirectory.set(file("C:\\Users\\petrolingus\\Downloads\\paper-1.21.4-207\\plugins")) // Кастомная папка
+    archiveBaseName.set("zanuda-infinity-rails")
+    destinationDirectory.set(file("C:\\Users\\petrolingus\\Downloads\\paper-1.21.4-207\\plugins"))
 }
